@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Flux</string>
+    
+    <!-- Welcome & Authentication -->
+    <string name="welcome_message">ยินดีต้อนรับสู่ Flux</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="logout">ออกจากระบบ</string>
+    <string name="signup">สมัครสมาชิก</string>
+    
+    <!-- Notes -->
+    <string name="create_note">สร้างบันทึกใหม่</string>
+    <string name="edit_note">แก้ไขบันทึก</string>
+    <string name="delete_note">ลบบันทึก</string>
+    <string name="save">บันทึก</string>
+    <string name="cancel">ยกเลิก</string>
+    
+    <!-- Common Actions -->
+    <string name="edit">แก้ไข</string>
+    <string name="delete">ลบ</string>
+    <string name="share">แชร์</string>
+    <string name="search">ค้นหา</string>
+    <string name="settings">การตั้งค่า</string>
+    
+    <!-- Messages -->
+    <string name="no_notes">ไม่มีบันทึก</string>
+    <string name="loading">กำลังโหลด…</string>
+    <string name="error">เกิดข้อผิดพลาด</string>
+    <string name="success">สำเร็จ</string>
+</resources>
