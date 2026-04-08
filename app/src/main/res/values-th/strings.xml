@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flux</string>
+
+    <!-- Authentication -->
+    <string name="Auth_with_Biometric">ยืนยันตัวตนด้วยไบโอเมตริก</string>
+    <string name="Auth_Error">ข้อผิดพลาด: การยืนยันตัวตนล้มเหลว</string>
+    <string name="Biometric_Title">การยืนยันตัวตนด้วยไบโอเมตริก</string>
+    <string name="Biometric_Subtitle">ใช้ลายนิ้วมือหรือใบหน้าเพื่อยืนยันตัวตน</string>
+    <string name="Biometric_Cancel">ยกเลิก</string>
+
+    <!-- Common UI Elements -->
+    <string name="Pin">ปักหมุด</string>
+    <string name="Unpin">เลิกปักหมุด</string>
+    <string name="Pinned">ปักหมุดแล้ว</string>
+    <string name="Dismiss">ปิด</string>
+    <string name="Confirm">ยืนยัน</string>
+    <string name="Cancel">ยกเลิก</string>
+    <string name="Set">ตั้งค่า</string>
+    <string name="Custom">กำหนดเอง</string>
+    <string name="Today">วันนี้</string>
+    <string name="New">ใหม่</string>
+    <string name="Others">อื่นๆ</string>
+    <string name="Title">ชื่อเรื่อง</string>
+    <string name="Description">คำอธิบาย</string>
+    <string name="Amount">จำนวน</string>
+    <string name="at">เมื่อ</string>
+    <string name="on">ในวันที่</string>
+
+    <!-- Dialog Messages -->
+    <string name="deleteDialogTitle">คุณแน่ใจหรือไม่?</string>
+    <string name="deleteDialogText">การกระทำนี้ไม่สามารถย้อนกลับได้ ข้อมูลทั้งหมดจะถูกลบอย่างถาวร</string>
+    <string name="removeDialogTitle">ลบพื้นที่นี้หรือไม่?</string>
+    <string name="removeDialogText">การกระทำนี้ไม่สามารถย้อนกลับได้ ข้อมูลทั้งหมดของพื้นที่นี้จะถูกลบ</string>
+
+    <!-- Permissions -->
+    <string name="Reminder_Permission">กรุณาเปิดการแจ้งเตือนความจำ</string>
+    <string name="Notification_Permission">กรุณาเปิดการแจ้งเตือน</string>
+
+    <!-- Settings -->
+    <string name="Settings">การตั้งค่า</string>
+
+    <!-- Settings - Customize -->
+    <string name="Customize">ปรับแต่ง</string>
+    <string name="Customize_desc">ธีม • รูปทรง • ความคมชัด</string>
+    <string name="System_theme">ธีมตามระบบ</string>
+    <string name="System_theme_desc">ปรับตามธีมของอุปกรณ์โดยอัตโนมัติ</string>
+    <string name="Light_theme">ธีมสว่าง</string>
+    <string name="Light_theme_desc">เปลี่ยนเป็นธีมสว่าง</string>
+    <string name="Dark_theme">ธีมมืด</string>    <string name="Dark_theme_desc">เปลี่ยนเป็นธีมมืด</string>
+    <string name="Dynamic_theme">ธีมไดนามิก</string>
+    <string name="Dynamic_theme_desc">ปรับตามพื้นหลังโดยอัตโนมัติ</string>
+    <string name="Amoled_theme">ธีม AMOLED</string>
+    <string name="Amoled_theme_desc">ใช้สีดำสนิทสำหรับพื้นหลัง</string>
+    <string name="Themes">ธีม</string>
+    <string name="Shape">รูปทรง • มุมมอง</string>
+    <string name="Radius">ความโค้ง</string>
+    <string name="Radius_desc">เปลี่ยนรูปร่าง</string>
+    <string name="Select_radius">เลือกความโค้ง</string>
+    <string name="Contrast">ความคมชัด</string>
+    <string name="Low">ต่ำ</string>
+    <string name="Medium">ปานกลาง</string>
+    <string name="High">สูง</string>
+    <string name="Grid_View">มุมมองตาราง</string>
+    <string name="Grid_View_Desc">เปลี่ยนมุมมองบันทึกเป็นแบบตาราง</string>
+    <string name="Monthly_View">มุมมองรายเดือน</string>
+    <string name="Monthly_View_Desc">เปลี่ยนเป็นมุมมองปฏิทินรายเดือน</string>
+    <string name="Hour_Format_24">รูปแบบ 24 ชั่วโมง</string>
+    <string name="Hour_Format_24_Desc">ใช้รูปแบบเวลา 24 ชั่วโมง</string>
+    <string name="Compact_Mode">โหมดกะทัดรัด</string>
+    <string name="Compact_Mode_Desc">แสดงพื้นที่ทำงานในโหมดกะทัดรัด</string>
+    <string name="Extreme_Compact_Mode">โหมดกะทัดรัดขั้นสูง</string>
+    <string name="Extreme_Compact_Mode_Desc">ลดระยะห่างระหว่างพื้นที่ทำงานให้แน่นขึ้น</string>
+    <string name="Theme_Palette">ชุดสีธีม</string>
+    <string name="Font">ฟอนต์</string>
+    <string name="Fonts">ฟอนต์</string>
+    <string name="Share_txt">แชร์เป็นไฟล์ข้อความ</string>
+    <string name="Share_md">แชร์เป็นไฟล์ Markdown</string>
+    <string name="Error_Share_txt">ไม่สามารถแชร์ไฟล์ข้อความได้</string>
+    <string name="Error_Share_md">ไม่สามารถแชร์ไฟล์ .md ได้</string>
+    <string name="Export_As">ส่งออกเป็น</string>
+    <string name="share_as">แชร์เป็น</string>
+    <string name="Plain_Text">ข้อความธรรมดา (.txt)</string>
+    <string name="Markdown">Markdown (.md)</string>
+    <string name="Change_Font">เปลี่ยนฟอนต์</string>
+    <string name="share">แชร์</string>
+    <string name="save">บันทึก</string>
+    <string name="print">พิมพ์</string>
+    <string name="delete">ลบ</string>
+    <string name="html">HTML</string>
+    <string name="image">รูปภาพ</string>
+    <string name="Outline">โครงร่าง</string>
+    <string name="words_excluding_punctuations">จำนวนคำ (ไม่รวมเครื่องหมายวรรคตอน)</string>
+    <string name="lines">บรรทัด</string>
+    <string name="paragraph">ย่อหน้า</string>
+    <string name="show_line_numbers">แสดงหมายเลขบรรทัด</string>
+    <string name="show_line_numbers_desc">แสดงหมายเลขบรรทัดในตัวแก้ไข</string>
+    <string name="markdown_lint">ตรวจสอบ Markdown</string>
+    <string name="markdown_lint_desc">ตรวจสอบรูปแบบและไวยากรณ์ Markdown</string>    <string name="color_palette">ชุดสี</string>
+    <string name="change_app_theme">เปลี่ยนธีมแอป</string>
+
+    <!-- Settings - Privacy -->
+    <string name="Privacy">ความเป็นส่วนตัว</string>
+    <string name="Privacy_desc">ป้องกันการแคปหน้าจอ • ล็อกแอป</string>
+    <string name="Screen_Protection">ป้องกันการแคปหน้าจอ</string>
+    <string name="Screen_Protection_Desc">ปิดการใช้งานการแคปหน้าจอ</string>
+    <string name="App_Lock">ล็อกแอป</string>
+    <string name="App_Lock_desc">ยืนยันตัวตนด้วยลายนิ้วมือ</string>
+    <string name="Encrypt">เข้ารหัส</string>
+    <string name="Encrypt_Desc">เข้ารหัสข้อมูลของคุณเมื่อสำรองข้อมูล</string>
+
+    <!-- Settings - Languages -->
+    <string name="Languages">ภาษา</string>
+    <string name="Languages_desc">เปลี่ยนภาษา</string>
+    <string name="System_language">ภาษาตามระบบ</string>
+    <string name="System_language_desc">ปรับตามภาษาของอุปกรณ์โดยอัตโนมัติ</string>
+
+    <!-- Settings - Backup -->
+    <string name="Backup">สำรองข้อมูล</string>
+    <string name="Backup_Description">สำรองข้อมูลของคุณไปยังไฟล์</string>
+    <string name="Restore">กู้คืนข้อมูล</string>
+    <string name="Restore_Description">กู้คืนข้อมูลของคุณจากไฟล์สำรอง</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="backup_frequency">ความถี่ในการสำรองข้อมูลอัตโนมัติ</string>
+    <string name="reset_database">รีเซ็ตฐานข้อมูล</string>
+    <string name="clear_app_data">ล้างข้อมูลแอปทั้งหมด</string>
+    <string name="never">ไม่เคย</string>
+    <string name="daily">ทุกวัน</string>
+    <string name="weekly">ทุกสัปดาห์</string>
+    <string name="monthly">ทุกเดือน</string>
+    <string name="success">สำเร็จ</string>
+
+    <!-- Settings - About -->
+    <string name="About">เกี่ยวกับ</string>
+    <string name="About_desc">เวอร์ชัน • ผู้พัฒนา • ซอร์สโค้ด</string>
+    <string name="Build_type">ประเภทบิลด์</string>
+    <string name="Build_version">เวอร์ชันบิลด์</string>
+    <string name="Developer">ผู้พัฒนา</string>
+    <string name="Developer_Name">Ronit Chinda</string>
+    <string name="Source_Code">ซอร์สโค้ด</string>
+    <string name="Github_Repository">ที่เก็บโค้ดบน GitHub</string>
+    <string name="license">ใบอนุญาต</string>
+    <string name="license_gpl3_only">GPL-3.0 เท่านั้น</string>
+    <string name="user_guide_title">คู่มือผู้ใช้</string>
+    <string name="user_guide_description">อ่านคู่มือเพื่อใช้งานแอปได้อย่างเต็มประสิทธิภาพ</string>
+    <string name="privacy_policy_title">นโยบายความเป็นส่วนตัว</string>
+    <string name="privacy_policy_description">นโยบายความเป็นส่วนตัวของแอปพลิเคชัน</string>
+    <string name="share_title">แชร์</string>    <string name="share_description">แชร์แอปพลิเคชันให้กับเพื่อนและครอบครัว</string>
+    <string name="data_title">ข้อมูล</string>
+    <string name="data_subtitle">สำรองข้อมูล • กู้คืนข้อมูล</string>
+
+    <!-- Settings - Contact & Support -->
+    <string name="Contact">ติดต่อ</string>
+    <string name="Contact_desc">ขอฟีเจอร์ใหม่ • รายงานบั๊ก</string>
+    <string name="Contact_desc2">แจ้งปัญหาบน GitHub</string>
+    <string name="Support">สนับสนุน</string>
+    <string name="Support_desc">แสดงความรักของคุณ</string>
+    <string name="feature_request">ขอฟีเจอร์ใหม่ / ข้อเสนอแนะ</string>
+    <string name="feature_request_desc">แสดงไอเดียของคุณบน GitHub Discussions</string>
+    <string name="bug_report">รายงานบั๊ก</string>
+    <string name="email">อีเมล</string>
+    <string name="email_desc">ส่งอีเมลเพื่อแสดงความคิดเห็นหรือขอความช่วยเหลือ</string>
+    <string name="discord">Discord</string>
+    <string name="discord_desc">เข้าร่วมช่อง Discord</string>
+    <string name="no_email_app">ไม่พบแอปอีเมล</string>
+
+    <!-- Workspace -->
+    <string name="Home">หน้าหลัก</string>
+    <string name="Edit_Workspace">แก้ไขพื้นที่ทำงาน</string>
+    <string name="Add_Workspace">เพิ่มพื้นที่ทำงาน</string>
+    <string name="Search_Workspaces">ค้นหาพื้นที่ทำงาน…</string>
+    <string name="Delete_Workspace">ลบพื้นที่ทำงาน</string>
+    <string name="Edit_Details">แก้ไขรายละเอียด</string>
+    <string name="Change_Cover">เปลี่ยนภาพปก</string>
+    <string name="Change_Icon">เปลี่ยนไอคอน</string>
+    <string name="Lock_Workspace">ล็อกพื้นที่ทำงาน</string>
+    <string name="Unlock_Workspace">ปลดล็อกพื้นที่ทำงาน</string>
+    <string name="Add_Spaces">เพิ่มพื้นที่</string>
+    <string name="Add_Space">เพิ่มพื้นที่</string>
+    <string name="Empty_Workspace">ไม่พบพื้นที่ทำงาน</string>
+    <string name="Wrong_Passkey">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="enterPasskey">ป้อนรหัสผ่าน</string>
+    <string name="Remove_Cover">ลบภาพปก</string>
+    <string name="Search_Here">ค้นหาที่นี่…</string>
+    <string name="current">ปัจจุบัน</string>
+    <string name="add">เพิ่ม</string>
+    <string name="workspace_deleted">ลบพื้นที่ทำงานแล้ว</string>
+
+    <!-- Space Management -->
+    <string name="Current">ปัจจุบัน</string>
+    <string name="Available_Spaces">พื้นที่ที่มีอยู่</string>
+
+    <!-- Notes -->
+    <string name="Notes">บันทึก</string>
+    <string name="Search_Notes">ค้นหาบันทึก…</string>
+    <string name="Delete_Note">ลบบันทึก</string>
+    <string name="Empty_Notes">ไม่พบบันทึก</string>    <string name="Last_Edited">แก้ไขล่าสุด</string>
+    <string name="Word_Count">จำนวนคำ</string>
+    <string name="Character_Count">จำนวนตัวอักษร</string>
+    <string name="Labels">ป้ายกำกับ</string>
+    <string name="Empty_Labels">ไม่พบป้ายกำกับ</string>
+    <string name="Edit_Labels">แก้ไขป้ายกำกับ</string>
+    <string name="Add_Label">เพิ่มป้ายกำกับใหม่</string>
+    <string name="Edit_Label">แก้ไขป้ายกำกับ</string>
+    <string name="Select_Label">เลือกป้ายกำกับ</string>
+    <string name="Export_Note">ส่งออกบันทึก</string>
+    <string name="import_success">นำเข้าสำเร็จ</string>
+    <string name="import_failed">นำเข้าบันทึกไม่สำเร็จ</string>
+    <string name="find">ค้นหา</string>
+    <string name="replace">แทนที่</string>
+    <string name="record_audio">บันทึกเสียง</string>
+    <string name="tap_to_start">แตะเพื่อเริ่ม</string>
+    <string name="retry">ลองใหม่</string>
+    <string name="permission_required">กรุณาอนุญาตสิทธิ์ในการบันทึกเสียง</string>
+    <string name="task">งาน</string>
+    <string name="item_value">ค่าของรายการ</string>
+    <string name="list">รายการ</string>
+    <string name="column">คอลัมน์</string>
+    <string name="row">แถว</string>
+    <string name="table">ตาราง</string>
+    <string name="url">URL</string>
+    <string name="name">ชื่อ</string>
+    <string name="link">ลิงก์</string>
+
+    <!-- To-Do -->
+    <string name="To_Do">สิ่งที่ต้องทำ</string>
+    <string name="Empty_Lists">ไม่พบบันทึก</string>
+    <string name="Edit_list">แก้ไขรายการ</string>
+    <string name="Add_Item">เพิ่มรายการใหม่</string>
+    <string name="more">…เพิ่มเติม</string>
+
+    <!-- Habits -->
+    <string name="Habits">นิสัย</string>
+    <string name="Empty_Habits">ไม่พบนิสัย</string>
+    <string name="Started">เริ่มเมื่อ</string>
+    <string name="Current_Streak">ต่อเนื่องปัจจุบัน: </string>
+    <string name="Best_Streak">สูงสุด: </string>
+    <string name="Add_Habit">เพิ่มนิสัย</string>
+    <string name="Edit_Habit">แก้ไขนิสัย</string>
+    <string name="completed_habits">ทำสำเร็จ %1$d ครั้ง</string>
+    <string name="monday_short">จ.</string>
+    <string name="tuesday_short">อ.</string>
+    <string name="wednesday_short">พ.</string>
+    <string name="thursday_short">พฤ.</string>
+    <string name="friday_short">ศ.</string>
+    <string name="saturday_short">ส.</string>    <string name="sunday_short">อา.</string>
+    <string name="past_habits">นิสัยที่ผ่านมา</string>
+    <string name="time">เวลา</string>
+    <string name="repeat">ทำซ้ำ</string>
+    <string name="never_ends">ไม่สิ้นสุด</string>
+    <string name="ends_on">สิ้นสุดเมื่อ</string>
+    <string name="mark_completed">ทำเครื่องหมายว่าเสร็จสิ้น</string>
+    <string name="mark_pending">ทำเครื่องหมายว่ารอดำเนินการ</string>
+    <string name="ends_on_date">สิ้นสุดเมื่อ %1$s</string>
+    <string name="weekly_habit_completion">การทำนิสัยสำเร็จรายสัปดาห์</string>
+    <string name="habit_already_ended">นิสัยนี้สิ้นสุดลงแล้ว!</string>
+    <string name="cannot_mark_future_dates">คุณไม่สามารถทำเครื่องหมายวันที่ในอนาคตได้!</string>
+    <string name="habit_starts_later">นิสัยของคุณจะเริ่มในภายหลัง!</string>
+    <string name="date_not_in_schedule">วันนี้ไม่อยู่ในตารางเวลานิสัยของคุณ</string>
+
+    <!-- Events -->
+    <string name="Events">กิจกรรม</string>
+    <string name="Empty_Events">ไม่พบกิจกรรม</string>
+    <string name="Edit_Event">แก้ไขกิจกรรม</string>
+    <string name="All_Day">ตลอดวัน</string>
+    <string name="Repeat_Task">ทำซ้ำงาน</string>
+    <string name="Repeat">ทำซ้ำ</string>
+    <string name="Once">ครั้งเดียว</string>
+    <string name="Weekly">ทุกสัปดาห์</string>
+    <string name="Monthly">ทุกเดือน</string>
+    <string name="Yearly">ทุกปี</string>
+    <string name="Status_Completed">เสร็จสิ้น</string>
+    <string name="Status_Pending">รอดำเนินการ</string>
+    <string name="Mark_As_Completed">ทำเครื่องหมายว่าเสร็จสิ้น</string>
+    <string name="Mark_As_Uncompleted">ทำเครื่องหมายว่ายังไม่เสร็จ</string>
+    <string name="recurrence_once">ครั้งเดียวเมื่อ %1$s</string>
+    <string name="recurrence_daily">ทุกวัน</string>
+    <string name="recurrence_every_x_days">ทุก %1$d วัน</string>
+    <string name="recurrence_weekly_on">ทุกสัปดาห์ในวัน %1$s</string>
+    <string name="recurrence_monthly_on">ทุกเดือนในวันที่ %1$d</string>
+    <string name="recurrence_yearly_on">ทุกปีในวันที่ %1$s</string>
+    <string name="recurrence_at_time">%1$s เวลา %2$s</string>
+
+    <!-- Event Notifications -->
+    <string name="On_Time">เมื่อถึงเวลากิจกรรม</string>
+    <string name="five_minutes_before">5 นาทีก่อนหน้า</string>
+    <string name="ten_minutes_before">10 นาทีก่อนหน้า</string>
+    <string name="fifteen_minutes_before">15 นาทีก่อนหน้า</string>
+    <string name="thirty_minutes_before">30 นาทีก่อนหน้า</string>
+    <string name="one_hour_before">1 ชั่วโมงก่อนหน้า</string>
+    <string name="Custom_Notification">การแจ้งเตือนกำหนดเอง</string>
+    <string name="Add_Notification">เพิ่มการแจ้งเตือน</string>
+    <string name="Select_Time">เลือกเวลา</string>
+
+    <!-- Time Units -->    <string name="day">วัน</string>
+    <string name="days">วัน</string>
+    <string name="hour">ชั่วโมง</string>
+    <string name="hours">ชั่วโมง</string>
+    <string name="minute">นาที</string>
+    <string name="minutes">นาที</string>
+    <string name="before">ก่อนหน้า</string>
+
+    <!-- Calendar -->
+    <string name="Calendar">ปฏิทิน</string>
+
+    <!-- Journal -->
+    <string name="Journal">บันทึกประจำวัน</string>
+    <string name="Write_here">เขียนที่นี่…</string>
+    <string name="Empty_Journal">ไม่พบรายการ</string>
+    <string name="Today_Entry">รายการวันนี้</string>
+
+    <!-- Analytics -->
+    <string name="Analytics">สถิติ</string>
+    <string name="Empty_Analytics">เพิ่มพื้นที่เพื่อหาสถิติที่นี่</string>
+    <string name="HeatMap">แผนที่ความร้อนนิสัย</string>
+    <string name="Completed_Today">เสร็จสิ้นวันนี้</string>
+    <string name="This_Week">สัปดาห์นี้</string>
+    <string name="This_Month">เดือนนี้</string>
+    <string name="Upcoming">ที่กำลังจะมาถึง</string>
+    <string name="Failed">ล้มเหลว</string>
+    <string name="Completed">เสร็จสิ้น</string>
+    <string name="journals_written">เขียนบันทึกประจำวัน %1$d รายการ</string>
+    <string name="best_streak">สูงสุด: %1$d วัน</string>
+    <string name="completion_percentage">ความคืบหน้า %1$d%%</string>
+
+    <!-- Error Messages -->
+    <string name="Error_Alarm_Permission_Settings">ไม่สามารถเปิดการตั้งค่าสิทธิ์การแจ้งเตือน</string>
+    <string name="Error_Schedule_Alarm_Failed">ข้อผิดพลาด: ไม่สามารถตั้งเวลาการแจ้งเตือนได้</string>
+    <string name="Error_Cancel_Alarm_Failed">ข้อผิดพลาด: ไม่สามารถยกเลิกการแจ้งเตือนได้</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="Add_Spaces_Content_Desc">เพิ่มพื้นที่</string>
+    <string name="Space_Content_Desc">พื้นที่</string>
+    <string name="Edit_Space_Content_Desc">แก้ไขพื้นที่</string>
+
+    <!-- Editor -->
+    <string name="editor_title">ตัวแก้ไข</string>
+    <string name="editor_subtitle">มุมมองเริ่มต้น • โหมดแก้ไขเริ่มต้น</string>
+
+    <!-- Line Numbers -->
+    <string name="show_line_numbers_title">แสดงหมายเลขบรรทัด</string>
+    <string name="show_line_numbers_description">
+        แสดงหมายเลขบรรทัดในตัวแก้ไข
+    </string>
+    <!-- Markdown Lint -->
+    <string name="markdown_lint_title">ตรวจสอบ Markdown</string>
+    <string name="markdown_lint_description">
+        ตรวจสอบรูปแบบและไวยากรณ์ Markdown
+    </string>
+
+    <!-- Default Editor View -->
+    <string name="default_editor_view">มุมมองตัวแก้ไขเริ่มต้น</string>
+
+    <!-- Editor Modes -->
+    <string name="reading_view">มุมมองอ่าน</string>
+    <string name="editing_view">มุมมองแก้ไข</string>
+
+    <string name="shareContent">
+        Flux เป็นแอปเพิ่มประสิทธิภาพงานบนแอนดรอยด์สมัยใหม่ที่สร้างด้วย Compose ทั้งหมด\n
+        ช่วยให้คุณสร้าง แก้ไข และลบพื้นที่ทำงานที่มีเทมเพลตหลากหลาย เช่น บันทึก, นิสัย, บันทึกประจำวัน, สิ่งที่ต้องทำ, กิจกรรม ฯลฯ พร้อมฟังก์ชันขั้นสูง เช่น ค้นหาและแทนที่, เทมเพลตบันทึก, นำเข้าภาพ/วิดีโอ/เสียงจากเครื่อง, รองรับ Markdown, สูตรคณิตศาสตร์ LaTeX และไดอะแกรม Mermaid\n
+        ดาวน์โหลดและลองใช้งานได้เลย:\n
+        - [GitHub]  https://github.com/chindaronit/Flux/releases\n
+        - [F-droid] https://f-droid.org/packages/com.flux/
+    </string>
+
+    <string name="select_folder">เลือกโฟลเดอร์</string>
+    <string name="select_folder_description">เลือกตำแหน่งสำหรับเก็บข้อมูลแอป รวมถึงรูปภาพ เสียง วิดีโอ เอกสาร และการสำรองข้อมูล</string>
+
+    <!-- Progress Tracker -->
+    <string name="not_started">ยังไม่เริ่ม</string>
+    <string name="in_progress">กำลังดำเนินการ</string>
+    <string name="empty">ว่างเปล่า</string>
+    <string name="target">เป้าหมาย</string>
+    <string name="start">เริ่ม</string>
+    <string name="progress_tracker">ติดตามความคืบหน้า</string>
+</resources>
